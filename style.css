@@ -10,6 +10,7 @@ body {
   background-color: rgba(236, 242, 248, 1);
 }
 .conteiner {
+  gap: 20px;
   width: 1110px;
   display: grid;
   height: 572px;
@@ -30,10 +31,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.first_name {
-  font-size: 13px;
-  font-weight: 500px;
-}
+
 .verified {
   font-size: 11px;
   font-weight: 500px;
@@ -41,6 +39,8 @@ body {
 }
 .dclifford {
   color: white;
+  font-size: 13px;
+  font-weight: 500px;
 }
 .heading {
   font-size: 20px;
@@ -51,11 +51,133 @@ body {
 .clifford_image {
   display: flex;
   gap: 5px;
-  margin-right: 300px;
+  margin-right: 350px;
 }
 .paragraph {
   font-weight: 500px;
   font-size: 13px;
   color: rgba(207, 207, 207, 1);
   padding: 15px;
+}
+.box_2 {
+  background-color: rgba(72, 85, 106, 1);
+  border-radius: 8px;
+  grid-area: jonathan;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.jonathan {
+  color: white;
+  font-size: 13px;
+  font-weight: 500px;
+  display: flex;
+  margin-right: 300px;
+}
+.verifiedgr {
+  font-size: 11px;
+  font-weight: 500px;
+  color: rgba(190, 182, 182, 0.5);
+}
+.jonheading {
+  font-size: 20px;
+  font-weight: 600px;
+  color: white;
+  padding: 15px;
+}
+
+.jonparagraph {
+  font-weight: 500px;
+  font-size: 13px;
+  color: rgba(207, 207, 207, 1);
+  padding: 15px;
+}
+.box_3 {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  grid-area: kira;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.whittle_name {
+  font-weight: 500px;
+  font-size: 13px;
+  color: rgb(18, 1, 1);
+}
+.kiraparagraph_1 {
+  font-weight: 500px;
+  font-size: 11px;
+  color: rgba(72, 85, 106, 0.5);
+}
+.kiraheading {
+  font-size: 20px;
+  font-weight: 600px;
+  padding: 15px;
+}
+.kiraparagraph {
+  font-size: 13px;
+  font-weight: 500px;
+
+  padding: 15px;
+}
+.box_4 {
+  background-color: rgba(255, 255, 255, 1);
+  grid-area: janet;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.jea_name {
+  font-size: 13px;
+  font-weight: 500px;
+  color: rgba(72, 85, 106, 1);
+}
+.jaeverified {
+  font-size: 11px;
+  font-weight: 500px;
+}
+.jeaheading {
+  font-size: 20px;
+  font-weight: 600px;
+  padding: 20px;
+}
+.jeaparagraph {
+  font-size: 13px;
+  font-weight: 500px;
+  padding: 15px;
+}
+.box_5 {
+  background-color: rgba(25, 32, 45, 1);
+  grid-area: patrik;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.patricio {
+  font-size: 13px;
+  font-weight: 500px;
+  color: white;
+}
+.patriciaspan {
+  font-size: 11px;
+  font-weight: 500px;
+  color: white;
+}
+.patriciaheading {
+  font-size: 20px;
+  font-weight: 600px;
+  padding: 15px;
+  color: white;
+}
+.patriciaparagraph {
+  font-size: 13px;
+  font-weight: 500px;
+  padding: 15px;
+  color: white;
 }
