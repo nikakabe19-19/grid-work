@@ -1,0 +1,61 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(236, 242, 248, 1);
+}
+.conteiner {
+  width: 1110px;
+  display: grid;
+  height: 572px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "daniel daniel jonathan kira"
+    "daniel daniel jonathan kira"
+    "janet patrik patrik kira"
+    "janet patrik patrik kira";
+}
+.box_1 {
+  background-color: rgba(167, 117, 241, 1);
+  grid-area: daniel;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.first_name {
+  font-size: 13px;
+  font-weight: 500px;
+}
+.verified {
+  font-size: 11px;
+  font-weight: 500px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.dclifford {
+  color: white;
+}
+.heading {
+  font-size: 20px;
+  font-weight: 600px;
+  color: white;
+  padding: 15px;
+}
+.clifford_image {
+  display: flex;
+  gap: 5px;
+  margin-right: 300px;
+}
+.paragraph {
+  font-weight: 500px;
+  font-size: 13px;
+  color: rgba(207, 207, 207, 1);
+  padding: 15px;
+}
